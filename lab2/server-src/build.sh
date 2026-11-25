@@ -1,6 +1,5 @@
 #!/bin/sh
-# Сборка area.jar (сервер + библиотека FastCGI в одном архиве).
-# Нужен JDK (javac и jar). Запуск: sh build.sh
+# Сборка area.jar
 set -e
 cd "$(dirname "$0")"
 rm -rf build
